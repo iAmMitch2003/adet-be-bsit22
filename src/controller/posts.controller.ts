@@ -1,7 +1,7 @@
 import type { Context } from "hono";
-import pool from "../config/db";
-import type { CreatePostModel, PostModel } from "../models/posts.model";
 import type { ResultSetHeader } from "mysql2";
+import pool from "../config/db.js";
+import type { CreatePost, Post, UpdatePost } from "../models/posts.model.js";
 
 export async function getAllPosts(context: Context) {
   try {
