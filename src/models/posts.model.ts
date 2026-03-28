@@ -13,3 +13,9 @@ export interface CreatePostModel {
   description: string;
   status: 'Active' | 'Inactive';
 }
+
+export interface UpdatePostModel {
+    title?: string;
+    description?: string;
+    status?: 'Active' | 'Inactive';
+}
