@@ -4,7 +4,7 @@ const dbConfig = {
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: '',
+    password: 'BSITMeow22',
     database: 'bsit-22',
     waitForConnections: true,
     connectionLimit: 10,
